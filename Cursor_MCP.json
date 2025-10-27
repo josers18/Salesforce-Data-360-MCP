@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "datacloud": {
+      "command": "enter your python path here",
+      "args": [
+        "enter your mcp server.py path here"
+      ],
+      "env": {
+        "SF_CLIENT_ID": "enter your connected app client id here",
+        "SF_CLIENT_SECRET": "enter your connected app client secret here"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "suggest_table_and_fields",
+        "describe_table",
+        "list_tables"
+      ]
+    },
+    "mcp-adaptor": {
+      "command": "/Users/jsifontes/.mcp-adaptor/bin/mcp-adaptor-v1.5.0-macos-x64",
+      "args": [],
+      "transport": "stdio",
+      "env": {
+        "GW_PROFILE": "default",
+        "MCP_ADAPTOR_ENV": "prod"
+      }
+    }
+  }
+}
