@@ -1,10 +1,10 @@
-# MCP-OpenAI Bridge for Salesforce Data Cloud
+# MCP-OpenAI Bridge for Salesforce Data 360
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![MCP](https://img.shields.io/badge/MCP-Compatible-green.svg)](https://modelcontextprotocol.io)
 
-A bridge that connects OpenAI's function calling with Salesforce Data Cloud through the Model Context Protocol (MCP). Query your Data Cloud using natural language!
+A bridge that connects OpenAI's function calling with Salesforce Data 360 through the Model Context Protocol (MCP). Query your Data 360 using natural language!
 
 ## 🌟 Features
 
@@ -12,7 +12,7 @@ A bridge that connects OpenAI's function calling with Salesforce Data Cloud thro
 - 🔌 **MCP Integration** - Seamlessly connects to any MCP-compatible server
 - ⚡ **OpenAI Function Calling** - Leverages GPT-4's advanced reasoning
 - 🛠️ **Two Interfaces** - CLI and Streamlit web UI
-- 📊 **Salesforce Data Cloud** - Direct integration with Data Cloud queries
+- 📊 **Salesforce Data 360** - Direct integration with Data 360 queries
 
 ## 🚀 Quick Start
 
@@ -20,7 +20,7 @@ A bridge that connects OpenAI's function calling with Salesforce Data Cloud thro
 
 - Python 3.11 or higher
 - OpenAI API key
-- Salesforce Data Cloud credentials (Client ID & Secret)
+- Salesforce Data 360 credentials (Client ID & Secret)
 - MCP server (e.g., [datacloud-mcp-query](https://github.com/salesforce/datacloud-mcp-query))
 
 ### Installation
@@ -59,7 +59,7 @@ python interactive_chat.py
 🔌 Connecting to MCP server...
 ✅ Connected! Found 3 tools
 
-💬 You: What tables are available in my Data Cloud?
+💬 You: What tables are available in my Data 360?
 
 🤖 Assistant: I found the following tables:
 - Customer__dlm
@@ -110,7 +110,7 @@ Once connected, try asking:
 ## 🏗️ Architecture
 
 ```
-User Input → OpenAI GPT-4 → MCP Bridge → MCP Server → Salesforce Data Cloud
+User Input → OpenAI GPT-4 → MCP Bridge → MCP Server → Salesforce Data 360
 ```
 
 The bridge:
@@ -194,7 +194,7 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) for deta
 
 - [Model Context Protocol (MCP)](https://modelcontextprotocol.io) - Protocol specification
 - [OpenAI](https://openai.com) - Function calling capabilities
-- [Salesforce](https://salesforce.com) - Data Cloud platform
+- [Salesforce](https://salesforce.com) - Data 360 platform
 
 ## 📞 Support
 
